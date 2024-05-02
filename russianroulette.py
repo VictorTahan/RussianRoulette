@@ -1,4 +1,5 @@
 import random
+import sys
 
 # Função para inserir a quantidade de balas no revólver
 def inserir(x):
@@ -33,8 +34,10 @@ while True:
                 if shoot == 'bullet':
                     print("PLOW! Você morreu!")
                     restart = int(input("Jogar novamente?\nDigite 1 para reiniciar o jogo.\nDigite qualquer outro número para sair."))
-                    if restart != 1:
+                    if restart == 1:
                         break
+                    else:
+                        sys.exit()
                 else:
                     print("TEC! TEC! Você escapou!\nÉ a vez do seu adversário!")               
                     print("Seu adversário girou o tambor, engatilhou e apontou pra sua cara!")
@@ -42,8 +45,10 @@ while True:
                     if enemy_shoot == 'bullet':
                         print("PLOW! Você morreu!")
                         restart = int(input("Jogar novamente?\nDigite 1 para reiniciar o jogo.\nDigite qualquer outro número para sair."))
-                        if restart !=1:
+                        if restart ==1:
                             break
+                        else:
+                            sys.exit()
                     else:
                         print("TEC! TEC! Você escapou!")
                         continue
@@ -52,8 +57,10 @@ while True:
                 if shoot == 'bullet':
                     print("PLOW! Você matou seu adversário!")
                     restart = int(input("Jogar novamente?\nDigite 1 para reiniciar o jogo.\nDigite qualquer outro número para sair."))
-                    if restart != 1:
-                        break
+                    if restart ==1:
+                            break
+                    else:
+                        sys.exit()
                 else:
                     print("TEC! TEC! Seu adversário escapou!\nÉ a vez do seu adversário!")
                     print("Seu adversário girou o tambor, engatilhou e apontou pra sua cara!")
@@ -61,8 +68,10 @@ while True:
                     if enemy_shoot == 'bullet':
                         print("PLOW! Você morreu!")
                         restart = int(input("Jogar novamente?\nDigite 1 para reiniciar o jogo.\nDigite qualquer outro número para sair."))
-                        if restart !=1:
+                        if restart ==1:
                             break
+                        else:
+                            sys.exit()
                     else:
                         print("TEC! TEC! Você escapou!")
                         continue
@@ -76,8 +85,10 @@ while True:
                 if shoot == 'bullet':
                     print("PLOW! Você morreu!")
                     restart = int(input("Jogar novamente?\nDigite 1 para reiniciar o jogo.\nDigite qualquer outro número para sair."))
-                    if restart != 1:
-                        break
+                    if restart ==1:
+                            break
+                    else:
+                        sys.exit()
                 else:
                     print("TEC! TEC! Você escapou!\nÉ a vez do seu adversário!")
                     print("Seu adversário girou o tambor, engatilhou e apontou pra sua cara!")
@@ -85,8 +96,10 @@ while True:
                     if enemy_shoot == 'bullet':
                         print("PLOW! Você morreu!")
                         restart = int(input("Jogar novamente?\nDigite 1 para reiniciar o jogo.\nDigite qualquer outro número para sair."))
-                        if restart !=1:
+                        if restart ==1:
                             break
+                        else:
+                            sys.exit()
                     else:
                         print("TEC! TEC! Você escapou!")
                         continue
@@ -95,8 +108,10 @@ while True:
                 if shoot == 'bullet':
                     print("PLOW! Você matou seu adversário!")
                     restart = int(input("Jogar novamente?\nDigite 1 para reiniciar o jogo.\nDigite qualquer outro número para sair."))
-                    if restart != 1:
-                        break
+                    if restart ==1:
+                            break
+                    else:
+                        sys.exit()
                 else:
                     print("TEC! TEC! Seu adversário escapou!\nÉ a vez do seu adversário!")
                     print("Seu adversário girou o tambor, engatilhou e apontou pra sua cara!")
@@ -104,8 +119,10 @@ while True:
                     if enemy_shoot == 'bullet':
                         print("PLOW! Você morreu!")
                         restart = int(input("Jogar novamente?\nDigite 1 para reiniciar o jogo.\nDigite qualquer outro número para sair."))
-                        if restart !=1:
+                        if restart ==1:
                             break
+                        else:
+                            sys.exit()
                     else:
                         print("TEC! TEC! Você escapou!")
                         continue
